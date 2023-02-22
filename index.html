@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>ভালোবাসার চিঠি</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    
+</head>
+<body style="background-color:aliceblue;">
+    <div id="second" style="width:1000px;margin-left:100px;margin-top: 50px;">
+    <p>শায়েরি,</p>
+    <br>
+<p style="margin-left: 10px;">
+অন্য আর কিছু নয়, শুধু বলতে চাই,”আমি আছি তোর সাথে”|
+সময় আর বেশি নেই তোর সাথে থাকার | আমাদের কিছুটা সময় দূরে থাকতে হবে | আমি অপেক্ষা করছি সেই সময়টার যখন আমরা আমাদের জীবনটা একসঙ্গে কাটাবো আর সেটা খুব শিগ্রহি হতে চলছে |
+আজ আমাদের ভালোবাসার দুবছর পূরণ হলো | এই দুবছরটা ভালোবাসায় ভরিয়ে দিয়েছিস| আমি চাই এই ভাবে পাশে থেকে যা আর আমার জীবনটাকে মধুময় করেদে |</p>
+<br>
+<p style="margin-left: 10px;">ইতি</p>
+<p style="margin-left: 10px;">তোর সৌরভ</p>
+</div>
+<button id="toggle" style="margin-left: 500px;">এইটা তোর গান</button>
+    <div id ="third" style="text-align: center;  display: none;" >
+    <p>প্রিয়তম তুমি আগুনের মতো উদ্যম</p>
+    <p>তুমি আগুনের মতো সাবলিল</p>
+    <p>তোমার উত্তাপ ছাড়া কবিতারা</p> 
+    <p>সব দিক ভ্রান্ত গাংচিল</p>    
+    <p>তুমি সাগরের নিশী গর্জন</p>
+    <p>পাহাড়ের বোবা চিৎকার।</p>    
+    <p>অতি উজ্জ্বল আলো হয়ে এসো</p> 
+    <p>নিভে যাওয়া তবু দরকার।</p>
+    <p>আমি খুঁজছি তোমার স্পর্শ পেরিয়ে,</p>     
+    <p>হাজার আলোক বর্ষ</p>    
+    <p>তুমি মায়ের মতো সচ্ছ</p>    
+    <p>তুমি স্মৃতির মতো স্নিগ্ধ</p>    
+    <p>আমি খুঁজছি তোমার স্পর্শ পেরিয়ে,</p>     
+    <p>হাজার আলোক বর্ষ</p>    
+    <p>তুমি মায়ের হাতের সোয়েটার</p>     
+    <p>স্মৃতির মতো স্নিগ্ধ</p>    
+    <p>বরফে বেছানো রদ্দুর</p>    
+    <p>বেমানান বন্ধুত্বের মতো</p>    
+    <p>যদি তুষার যুগ নেমে আসে প্রিয়তম</p>     
+    <p>তুমি আমার পাঁজরে সূর্য হয়ে থেকো</p>    
+    <p>মেরুদণ্ডহীন এ শীতকাল কথা  না রাখার সময়।</p>     
+    <p>হিমশীতল শরীরে হাত দুটো রেখো।</p>
+    </div>
+    <script>
+    const targetDiv = document.getElementById("third");
+    const btn = document.getElementById("toggle");
+    const target = document.getElementById("second");
+    btn.onclick = function () {
+      if (targetDiv.style.display !== "none") {
+        targetDiv.style.display = "none";
+      } else {
+        targetDiv.style.display = "block";
+        target.style.display = "none";
+        btn.style.display = "none";
+      }
+    };
+  </script>
+</body>
+</html>
